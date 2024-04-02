@@ -1,0 +1,157 @@
+/* Defalt css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.layout{
+    width: 1200px;
+    margin: auto;
+}
+/* header css */
+
+.header{
+background: #22C3A3;
+}
+.logo{
+    float:left;
+    width: 30%;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.menubar{
+    float: right;
+    width: 70%;
+}
+.menubar ul{
+    text-align: right;
+}
+.menubar ul li{
+    display: inline-block;
+}
+.menubar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 60px;
+    transition: .4s;
+}
+.menubar ul li a:hover{
+    color: #000;
+
+}
+/* banner css */
+
+.banner{
+    background-image: url(./header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+}
+.welcome h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+} 
+.welcome p{
+    color: #fff;
+}
+.button {
+    padding: 10px 27px;
+    background-color: #fff0;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* Service css */
+
+.service{
+text-align: center;
+border-bottom: 2px solid #0DBF9B;
+}
+.service-text{
+    margin: 100px;
+}
+.service-item {
+    float: left;
+    width: 21%;
+    margin: 2%;
+    margin-bottom: 80px;
+   
+}
+.service-item i {
+    font-size: 40px;
+    color: #0DBF9B;
+    margin-bottom: 40px;
+}
+
+/* About us css */
+.About{
+    margin-bottom: 60px;
+}
+
+.about-heading{
+    text-align: center;
+    margin: 70px 0px 30px 0px;
+}
+.image{
+    float: left;
+    width: 40%;
+    display: block;
+}
+
+.about-text{
+    float:right;
+    width: 56%;
+    display: block;
+}
+
+/* Contact Us */
+
+.contact{
+    background-color: #ddd;
+    padding-bottom: 70px;
+}
+.contact-text{
+    text-align: center;
+    padding: 50px 0px;
+}
+.contact-address{
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+.contact-address i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #0DBF9B;
+}
+.footer {
+    background-color: #0DBF9B;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+}
+.footer i{
+    font-size: 20px;
+    padding: 0px 10px;
+   display: inline-block;
+}
